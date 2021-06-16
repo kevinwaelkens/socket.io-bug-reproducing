@@ -19,3 +19,7 @@ Make sure you have `nodemon` globally installed, or install it locally and add i
 Make sure you have Xcode downloaded with simulators installed to run one. The app should get installed on the simulator and the bundler will automatically run.
 
 Now open the freshly installed application and notice there's connections being created in the terminal. However, sending a text message in the client doesn't work.
+
+
+## Notes
+- As far as I can see, Android emulator can't even connect to the socket. Only iOS simulator can.
